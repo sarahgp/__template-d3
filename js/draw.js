@@ -17,7 +17,7 @@ function draw(){
   })
 }
 
-document.onreadystatechange = funtion() {
+document.onreadystatechange = function() {
   if (document.readyState == 'complete'){
     draw();
   }
